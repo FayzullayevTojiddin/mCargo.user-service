@@ -35,4 +35,7 @@ return [
         ],
     ],
 
+    'user_service' => [
+        'secret' => env('SERVICE_AUTH_KEY'),
+    ],
 ];
